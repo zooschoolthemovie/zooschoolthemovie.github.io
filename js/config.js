@@ -28,3 +28,8 @@ Endless.tiles = {
     w: 64
   }
 };
+
+Endless.initConfig = function(){
+    Endless.speed = -250;
+    Endless.currentSpeed = 250;
+  }

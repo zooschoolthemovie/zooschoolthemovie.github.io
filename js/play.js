@@ -27,6 +27,7 @@ Endless.run = function(game){
 Endless.run.prototype = {
 
   create: function(){
+    Endless.initConfig();
     this.game.time.advancedTiming = true;
 
     this.game.world.resize(Endless.width, Endless.height)
