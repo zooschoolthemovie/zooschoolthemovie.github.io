@@ -1,0 +1,317 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"my",
+				"myRangy"
+			],
+			[
+				"init",
+				"initialize"
+			],
+			[
+				"num",
+				"numPages"
+			],
+			[
+				"My",
+				"myRangy"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"render",
+				"renderPage"
+			],
+			[
+				"ree",
+				"renderPage"
+			],
+			[
+				"get",
+				"getDocument"
+			],
+			[
+				"PDF",
+				"PDFJS"
+			],
+			[
+				"redner",
+				"renderPdf"
+			],
+			[
+				"vie",
+				"viewController"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"pdf",
+				"pdfContainer"
+			],
+			[
+				"load",
+				"loadPdf"
+			],
+			[
+				"tex",
+				"textContent"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"new",
+				"newWidth"
+			],
+			[
+				"ad",
+				"adjust"
+			],
+			[
+				"a",
+				"appendChild"
+			],
+			[
+				"rende",
+				"renderSingle"
+			],
+			[
+				"high",
+				"highlighters"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"he",
+				"line-height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backgro",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nicokant/components/shadow.js",
+		"/home/nicokant/components/index.html",
+		"/home/nicokant/components/shadow.html",
+		"/home/nicokant/webslides/lib/css/zenburn.css",
+		"/home/nicokant/webslides/index.html",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/css/pdf_viewer.css",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/js/pdf_viewer/pdf_viewer.js",
+		"/home/nicokant/pdfjs-text-selection-demo-master/js/minimal.js",
+		"/home/nicokant/pdfjs-text-selection-demo-master/index.html",
+		"/home/nicokant/pdfjs-text-selection-demo-master/css/minimal.css",
+		"/home/nicokant/kjuicer/bookmarklet/templates/bookmarklet/pdf_show.html",
+		"/home/nicokant/pdfjs-text-selection-demo-master/js/pdf.js",
+		"/home/nicokant/kjuicerpdf/index.html",
+		"/home/nicokant/kjuicerpdf/style.css",
+		"/home/nicokant/kjuicerpdf/js/minimal.js",
+		"/home/nicokant/kjuicerpdf/node_modules/pdfjs-dist/web/pdf_viewer.js",
+		"/home/nicokant/kjuicerpdf/node_modules/pdfjs-dist/web/pdf_viewer.css",
+		"/home/nicokant/kjuicerpdf/app.js",
+		"/home/nicokant/kjuicerpdf/textlayerbuilder.js",
+		"/home/nicokant/kjuicerpdf/hello.js",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/js/load-view.js",
+		"/home/nicokant/kjuicer/bookmarklet/views.py",
+		"/home/nicokant/kjuicer/bookmarklet/urls.py",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/js/show-pdf.js",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/css/palette/first-highlights.css",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/css/highlight-visibility.css",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/js/view-pdf.js",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/js/pdfjs/web/text_layer_builder.css",
+		"/home/nicokant/kjuicer/bookmarklet/templates/bookmarklet/pdf_view.html",
+		"/home/nicokant/kjuicer/bookmarklet/static/bookmarklet/js/view-manager.js",
+		"/home/nicokant/pdf.js/web/viewer.html",
+		"/home/nicokant/kjuicer/bookmarklet/templates/bookmarklet/view.html",
+		"/home/nicokant/Kj-bar/script/bar.js",
+		"/home/nicokant/Kj-bar/style/bar.css",
+		"/home/nicokant/Kj-bar/index.html",
+		"/home/nicokant/Kj-bar/script",
+		"/home/nicokant/kjuicer/bookmarklet/templates/bookmarklet/show.html",
+		"/home/nicokant/kjpdf/index.html",
+		"/home/nicokant/kjpdf/main.js",
+		"/home/nicokant/kjuicertool/Gruntfile.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}\n",
+			".\n",
+			"use strict",
+			"CSS_UNITS",
+			"scale",
+			"textContent",
+			"opacity: 0.2",
+			"opacity: .2",
+			"textLayer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

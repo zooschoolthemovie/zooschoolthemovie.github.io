@@ -15,6 +15,7 @@ Endless.preload.prototype = {
     this.game.load.image("background", "assets/bg.png")
     this.game.load.image("start", "assets/play.png")
     this.game.load.image("twitter", "assets/share-twitter.png")
+    this.game.load.image("facebook", "assets/share-facebook.png") 
     this.game.load.image("desk", "assets/desk.png")
   },
 
