@@ -17,7 +17,15 @@ body{
 }
 
 #frame-wrapper{
-  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+}
+#frame-wrapper span{
+  border: 1px inset #e3e3e3;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .game{

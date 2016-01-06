@@ -15,13 +15,13 @@
 	<body>
   <header>ZooSchool</header>
   <div id="frame-wrapper">
-	   <iframe class='game' src='game.html'></iframe>
+	   <span>Play!</span>
   </div>
   <footer>
-  <h2>Istruzioni</h2>
-  <li>Premi "start" per avviare il gioco</li>
-  <li>Clicca sul videogioco per saltare</li>
-	<li>Evita gli ostacoli e raccogli le ossa per aiutare Besnik a trovare il suo cucciolo</li>
+	  <h2>Istruzioni</h2>
+	  <li>Premi "start" per avviare il gioco</li>
+	  <li>Clicca sul videogioco per saltare</li>
+	  <li>Evita gli ostacoli e raccogli le ossa per aiutare Besnik a trovare il suo cucciolo</li>
   </footer>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -32,6 +32,9 @@
 	  ga('create', 'UA-72068732-1', 'auto');
 	  ga('send', 'pageview');
 
+	  (document.getElementById('frame-wrapper')).onclick = function(){
+	  	location.href = location.origin+'/game.html';
+	  }
 	</script>
 </body>
 </html>
