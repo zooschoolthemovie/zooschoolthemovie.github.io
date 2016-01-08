@@ -14,7 +14,7 @@ Endless.Bones.prototype = {
     this.update();
   },
   update: function(){
-    this.text.text = "Bones: "+this.val;
+    this.text.text = "Ossa: "+this.val;
     Endless.CommonScore = this.val;
   },
   register: function(){

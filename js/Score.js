@@ -14,7 +14,7 @@ Endless.score.prototype = {
     this.update();
   },
   update: function(){
-    this.text.text = "Score: "+this.val+"m\nBest: "+this.best+"m";
+    this.text.text = "Distanza: "+this.val+"m\nMigliore: "+this.best+"m";
     Endless.CommonScore = this.val;
   },
   register: function(){
