@@ -1,58 +1,84 @@
 @font-face {
-  font-family: "Eraser";
-  src: url('css/EraserRegular.ttf');
+  font-family: "Rev";
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/rev.woff2') format("woff2");
 }
-
-@font-face {
-  font-family: "Cigarettes";
-  src: url('/css/Cigarette.ttf');
-}
-
 
 body{
-  background: url('/assets/bg.png');
+  background: url('/assets/back2.png');
   margin:0;
   color: #e0dbd1;
-  font-family: "Cigarettes";
+  font-family: "Rev", "freight-sans-pro",Arial,Helvetica,sans-serif;
+  overflow-x:hidden;
+  height: 1300px;
 }
 
-#frame-wrapper{
-  margin: 0 auto;
-  text-align: center;
+.container{
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width:100vw;
+  height:100vh;
   font-size: 50px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 }
-#frame-wrapper span{
-  border: 1px inset #e3e3e3;
+
+.dark{
+  background-color: #000;
+  opacity:0.6;
+  height:1300px;
+  transition: opacity 5s ease;
+}
+
+.container span{
+  border: 1px solid #d35400;
+  box-shadow: 1px 1px #d35400;
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  background-color: #f89406;
+  opacity: 1;
+  z-index: 2;
 }
 
-.game{
-  width: 480px;
-  height: 320px;
-  margin: 30px auto;
-  display: block;
-  border:none;
-  border-radius: 5px;
-  opacity: 0.6;
-  border: 3px #e0dbd1 ridge;
-  border-right-style: groove;
-  border-bottom-style: groove;
-  padding: 1px;
-  background: url('/assets/bg.png');
+span:hover + .dark{
+  opacity:0.25;
 }
 
 header{
   margin-top: 1rem;
-  font-size: 5rem;
+  font-size: 8rem;
   text-align: center;
   color: #e0dbd1;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  height: 16rem;
+  float:right;
+  clear: right;
+}
+
+p{
+  clear: right;
+  margin-right: 3rem;
+  text-align: center;
+  width: 20rem;
+  height:8rem;
+  float:right;
+  margin-top:3rem;
+  font-size: 2rem;
 }
 
 footer{
-  margin-left: 30px;
-  margin-bottom: 30px;
-    color: #e0dbd1;
-  list-style: none;
+  position:absolute;
+  margin-top: 1270px;
+  height: 20px;
+  padding-top: 10px;
+  width: 100%;
+  background-color: #0d0e10;
+  text-align: center;
 }

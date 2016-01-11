@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  <link href="css/style.css" rel="stylesheet">
+  	<link href="css/style.css" rel="stylesheet">
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 	<meta property="og:url" content="http://zooschoolthemovie.github.io"/>
 	<meta property='fb:app_id' content='1654546648131827'>	
 	<meta property="og:title" content="Zooschool - Il Gioco"/>
@@ -13,18 +14,28 @@
 	</head>
 
 	<body>
-	<a href="//www.iubenda.com/privacy-policy/7772674" class="iubenda-black iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-  <header>ZooSchool</header>
-  <div id="frame-wrapper">
+
+  <header>ZooSchool<br>The Game</header>
+  <p>Guida Besnik ad evitare la furia di Sabot mentre cerca il suo cane all'interno della scuola.
+  </p>
+  <div class="container">
 	   <span>Play!</span>
+	   <div class="container dark"></div>
   </div>
+
   <footer>
-	  <h2>Istruzioni</h2>
-	  <li>Premi "start" per avviare il gioco</li>
-	  <li>Clicca sul videogioco per saltare</li>
-	  <li>Guida Besnik ad evitare la furia di Sabot mentre è alla ricerca del suo cane.</li>
+  	credits: nicokant
   </footer>
+
+
+  <script type="text/javascript" id="cookiebanner"
+  	data-height="40px" data-position="bottom"
+    data-message="Usiamo i cookie per migliorare la tua navigazione e per permetterti di condividere i tuoi risultati con gli amici. I dati anonimi che otteniamo sono usati a fini statistici per migliorare il servizio."
+    data-moreinfo='//www.iubenda.com/privacy-policy/7772674'
+    data-linkmsg='Privacy Policy'
+    src="http://cookiebanner.eu/js/cookiebanner.min.js"></script>
 	<script>
+
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -34,9 +45,13 @@
 	  ga('set', 'anonymizeIp', true);
 	  ga('send', 'pageview');
 
-	  (document.getElementById('frame-wrapper')).onclick = function(){
+	  (document.querySelector('span')).onclick = function(){
 	  	location.href = location.origin+'/game.html';
 	  }
 	</script>
+
+
+
+
 </body>
 </html>
