@@ -35,10 +35,26 @@ tweet = function(){
   }
 
 function facebook(){
-  FB.login(function(){
-    // Note: The call will only work if you accept the permission request
-    FB.api('/me/score', 'post', {
-      score: Endless.CommonScore
-    });
+  FB.getLoginStatus(function(response) {
+    if (response.status === 'connected') {
+      sendScore()
+    }
+    else {
+      FB.login(sendScore)
+    }
   });
+}
+
+function sendScore(){
+  FB.ui({ 
+    method: 'feed',
+    link: 'http://zooschoolthemovie.github.io',
+    picture: 'http://zooschoolthemovie.github.io/assets/fb.png',
+    name: 'Sono fuggito per '+ Endless.CommonScore + 'metri',
+    description: 'Riuscirai a scappare dalla furia di Sabot?',
+    actions: [
+        { name: 'Zooschool - The Game', link: 'http://zooschoolthemovie.github.io/' }
+    ],
+    display: 'popup'
+  });  
 }
