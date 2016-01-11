@@ -37,9 +37,8 @@ tweet = function(){
 function facebook(){
   FB.login(function(){
     // Note: The call will only work if you accept the permission request
-    FB.api('/me/feed', 'post', {
-      message: 'Sono scappato per '+Endless.CommonScore+'m a Sabot su ' + window.location.origin,
-      link: window.location.origin
+    FB.api('/me/score', 'post', {
+      score: Endless.CommonScore
     });
-  }, {scope: 'publish_actions'});
+  });
 }
