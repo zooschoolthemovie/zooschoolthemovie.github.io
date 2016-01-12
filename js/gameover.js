@@ -6,6 +6,7 @@ Endless.gameover = function(game){
 
 Endless.gameover.prototype = {
   create: function(){
+    Endless.fullscreen.className = "";
     var style = { font: "bold 18px Arial", fill: "#fff", boundsAlignH: "center", boundsAlignV: "middle" };
     var text = this.game.add.text(Endless.width/2, 70, "Non sei scampato alla furia di Sabot!\nHai percorso "+ Endless.CommonScore+"m", style);
     var twitter = this.game.add.button(245, 110, "twitter", tweet, this);
@@ -23,6 +24,7 @@ Endless.gameover.prototype = {
     this.game.state.start("gameover")
   },
   play: function(){
+    Endless.fullscreen.className = "hidden";
     this.game.state.start("play")
   }
 }

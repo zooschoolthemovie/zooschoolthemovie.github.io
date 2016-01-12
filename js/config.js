@@ -32,4 +32,5 @@ Endless.tiles = {
 Endless.initConfig = function(){
     Endless.speed = -250;
     Endless.currentSpeed = 250;
+    Endless.fullscreen =  document.querySelector('#fullscreen');
   }

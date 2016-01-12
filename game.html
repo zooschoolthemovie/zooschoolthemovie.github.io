@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Zooschool - The Game</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 		<meta property="og:url" content="http://zooschoolthemovie.github.io"/>
 		<meta property='fb:app_id' content='1654546648131827'>
 		<meta property="og:title" content="Zooschool - Il Gioco"/>
@@ -27,15 +28,31 @@
 				display: flex;
 				justify-content:center;
 				align-items:center;
+				height:100vh;
 			}
 			canvas{
 				background: none;
 				width: 480px;
 				height: 320px;
 			}
+			#fullscreen{
+				position:fixed;
+				bottom:0.5rem;
+				left: 0.5rem;
+				background-color: red;
+				width: 5rem;
+				height:5rem;
+				background: url('/assets/fullscreen.png');
+				background-size: contain;
+			}
+
+			#fullscreen.hidden{
+				display: none;
+			}
 		</style>
   </head>
   <body>
+  	<div id='fullscreen'></div>
    	<script src="js/main.js"></script>
    	<script>
 	  window.fbAsyncInit = function() {

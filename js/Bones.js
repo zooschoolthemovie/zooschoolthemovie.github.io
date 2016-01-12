@@ -15,7 +15,7 @@ Endless.Bones.prototype = {
   },
   update: function(){
     this.text.text = "Ossa: "+this.val;
-    Endless.CommonScore = this.val;
+    Endless.CommonBones = this.val;
   },
   register: function(){
     localStorage.setItem("bones", this.val);

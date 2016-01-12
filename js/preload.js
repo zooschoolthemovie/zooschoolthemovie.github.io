@@ -20,7 +20,7 @@ Endless.preload.prototype = {
   },
 
   create: function(){
-    centerView(this);
+    //centerView(this);
     this.game.state.start("mainMenu");
   }
 

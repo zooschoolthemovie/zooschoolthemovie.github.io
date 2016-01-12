@@ -19,5 +19,8 @@ Endless.score.prototype = {
   },
   register: function(){
     localStorage.setItem("topScore",Math.max(this.val, this.best));
+  },
+  init: function(){
+    this.text.text = "Distanza: --\nMigliore: "+this.best+"m";
   }
 }

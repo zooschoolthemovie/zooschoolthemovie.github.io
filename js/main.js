@@ -15,4 +15,13 @@ window.onload = function(){
   document.addEventListener('play', function(){
     game.state.start("play")
   })
+
+  function goFull(game){
+    game.scale.fullScreenScaleMode = Phaser.ScaleManager.EXACT_FIT;
+    game.scale.startFullScreen(false);
+  }
+
+  (document.querySelector('#fullscreen')).addEventListener('click', function(){
+    goFull(game);
+  })
 }
