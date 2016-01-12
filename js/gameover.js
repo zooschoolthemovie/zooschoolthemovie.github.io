@@ -53,7 +53,7 @@ function sendScore(){
     link: 'http://zooschoolthemovie.github.io',
     picture: 'http://zooschoolthemovie.github.io/assets/fb.png',
     name: 'Sono fuggito per '+ Endless.CommonScore + 'metri',
-    description: 'Riuscirai a scappare dalla furia di Sabot?',
+    description: 'Sono fuggito per '+ Endless.CommonScore + 'metri. Riuscirai a scappare dalla furia di Sabot?',
     actions: [
         { name: 'Zooschool - The Game', link: 'http://zooschoolthemovie.github.io/' }
     ],

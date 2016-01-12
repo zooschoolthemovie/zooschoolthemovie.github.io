@@ -30,6 +30,32 @@ body{
   align-items:center;
 }
 
+.bottom{
+  position: absolute;
+  bottom: 0;
+  height: 2rem;
+  text-align: center;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.res{
+  float: left;
+  margin-right: 0;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.trailer{
+  margin-top: 8rem;
+}
+
+iframe{
+  position: absolute;
+  right:3rem;
+  top: 130vh;
+}
+
 .dark{
   background-color: #000;
   opacity:0.6;
